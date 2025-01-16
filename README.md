@@ -22,13 +22,16 @@ Objectives:
 
 
 2. Used Code Files
-- **data_cleaning.py**: Ham verilerin temizlenmesi ve işlenmesi.
-- **flowrate_calculation.py**: Akış hızlarının hesaplanması için temel algoritmalar.
-- **visualization.py**: Akış hızlarını grafiksel olarak görselleştirmek.
+- **missingdata.py**: Estimation of missing data at stations.
+- **dem_nodata.py**: Filling in missing areas in DEM data.
+- **testingallmodels.py**: All algorithms for flow rate estimation.
+- **CatBoost.py**: The most reliable method.
+- **noisedata.py**: Testing the method with noise data.
+- **next100year.py**: Predicting the flow rate for the next 100 years.
 
 ---
 
-Requirements
+3.Requirements
 To run the project, the following software and libraries are required:
 
 Software
@@ -45,3 +48,11 @@ Python Libraries
 To install the required Python libraries, use the following command in the terminal:
 pip install -r requirements
 
+4. How to Use
+
+All codes can be tested with the sample data sets provided on GitHub by uploading the relevant file in the code instead of uploading.
+
+5. Data Format
+
+- Codes for flow amount determinations are prepared according to the .xlsx file type, it can be converted to .csv format with the necessary correction.
+- If analysis is required for the DEM image, the file type is set to .tif.
